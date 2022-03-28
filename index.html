@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Bill Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bill CALCULATOR</h1>
+
+      <div class="wrapper">
+        <p>Enter Bill value</p>
+        <input type="text" id="amount" placeholder="Enter amount" /> ₹
+        <button id="calculate" onclick="calculateTip()">Calculate</button>
+        <!--<button type="reset" value="Reset" onclick="reset()">Reset</button>-->
+      </div>
+      <div class="tip">
+        <p>Tip Amount:</p>
+        <h4 id="Tips"></h4>
+        <p>Total amount to be paid:</p>
+        <h4 id="Total"></h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
